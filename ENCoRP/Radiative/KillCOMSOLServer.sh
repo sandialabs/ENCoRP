@@ -1,0 +1,1 @@
+screen -S comsolserverENCoRP -X quit

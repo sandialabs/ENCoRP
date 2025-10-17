@@ -1,0 +1,1 @@
+screen -S comsolserverENCoRP -d -m bash -c 'PATH=$PATH:/usr/local/comsol/comsol61/multiphysics/mli; PATH=$PATH:/usr/local/comsol/comsol61/multiphysics/mli/../bin; comsol mphserver -allowexternalmatlab'
