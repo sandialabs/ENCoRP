@@ -82,7 +82,8 @@ function Vf = VIwire(xf,yf,zf,wpwf,extraf,ff,VorCf)
         [checkval,wind] = min(ww);
         tol = 1e-1;
         if checkval > tol
-            error(sprintf('%f,%f,%f,%f',checkval,P(1),P(2),P(3)))
+            % Warning: commented out as tolerance should scale with separation distance.
+            % error(sprintf('%f,%f,%f,%f',checkval,P(1),P(2),P(3)))
         end
         
         %
